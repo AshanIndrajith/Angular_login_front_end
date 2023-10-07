@@ -10,6 +10,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatMenuModule} from '@angular/material/menu';
 import { LoginComponent } from './login/login.component';
+import { APanelComponent } from './a-panel/a-panel.component';
 
 
 
@@ -17,7 +18,8 @@ import { LoginComponent } from './login/login.component';
   declarations: [
     AppComponent,
     HomeComponent,
-    LoginComponent
+    LoginComponent,
+    APanelComponent
   ],
   imports: [
     BrowserModule,
