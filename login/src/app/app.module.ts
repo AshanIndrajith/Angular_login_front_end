@@ -11,6 +11,9 @@ import {MatTabsModule} from '@angular/material/tabs';
 import {MatMenuModule} from '@angular/material/menu';
 import { LoginComponent } from './login/login.component';
 import { APanelComponent } from './a-panel/a-panel.component';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+
 
 
 
@@ -19,7 +22,8 @@ import { APanelComponent } from './a-panel/a-panel.component';
     AppComponent,
     HomeComponent,
     LoginComponent,
-    APanelComponent
+    APanelComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -28,7 +32,9 @@ import { APanelComponent } from './a-panel/a-panel.component';
     BrowserAnimationsModule,
     MatButtonModule,
     MatTabsModule,
-    MatMenuModule
+    MatMenuModule,
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
